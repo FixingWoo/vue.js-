@@ -1,7 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Databinding</router-link> |
+    <!-- <router-link to="/databinding">Databinding</router-link> |
     <router-link to="/databindingHtml">DatabindingHtml</router-link> |
     <router-link to="/databindingInputText">DatabindingInputText</router-link> |
     <router-link to="/databindingInputNumber"
@@ -24,7 +24,8 @@
     <router-link to="/eventChange">eventChange</router-link> |
     <router-link to="/eventChange">eventChange</router-link> |
     <router-link to="/myComputed">myComputed</router-link> |
-    <router-link to="/myWatch">myWatch</router-link> |
+    <router-link to="/myWatch">myWatch</router-link> | -->
+    <router-link to="/databindingList2">ItemList</router-link> |
   </nav>
   <router-view />
 </template>

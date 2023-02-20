@@ -20,6 +20,7 @@ import EventClick from "../views/EventClick";
 import EventChange from "../views/EventChange";
 import MyComputed from "../views/MyComputed";
 import MyWatch from "../views/MyWatch";
+import DataBindingList2 from "../views/DataBindingList2";
 
 const routes = [
   {
@@ -135,6 +136,11 @@ const routes = [
     path: "/watch",
     name: "watch",
     component: MyWatch,
+  },
+  {
+    path: "/databindingList2",
+    name: "databindingList2",
+    component: DataBindingList2,
   },
 ];
 
